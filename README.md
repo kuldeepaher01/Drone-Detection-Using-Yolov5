@@ -7,12 +7,10 @@ Welcome to our project where we use YOLOv5 to detect drones in images and videos
 To use our drone detection app, follow these steps:
 
 1.  Clone the repository:
-
-          `git clone https://github.com/your_username/drone-detection.git` 
+  `git clone https://github.com/your_username/drone-detection.git` 
 
 2.  Install the required packages:
-
-      `pip install -r requirements.txt` 
+`pip install -r requirements.txt` 
 
 3.  Download the `Drone_Detection.pt` model file from the [release](https://github.com/kuldeepaher01/Drone-Detection-Using-Yolov5/blob/main/Drone_Detection.pt) page.
 
@@ -28,6 +26,7 @@ To use our drone detection app, follow these steps:
     video file to detect drones in. The output will be shown on the
     screen. (You may need to change path of pytorch model in
     GUI_application.py)
+ 4. We also have dataset hosted on here.
 
 ## Credits
 
