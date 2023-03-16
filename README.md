@@ -1,21 +1,39 @@
-Drone Detection using YOLOv5
-In this project, I collected images of drones from the internet, annotated them, and trained a YOLOv5 object detection model to detect drones in images. The files in this repository are Drone_detection.ipynb, GUI application.py, and Drone_Detection.pt model.
+# Drone Detection with YOLOv5 and GUI Application
 
-Prerequisites
-Python 3
-PyTorch
-OpenCV
-Pillow
-Matplotlib
-NumPy
-Collecting and Annotating Data
-I collected images of drones from the internet and annotated them using LabelImg. The annotated images are in the data/images directory.
+Welcome to our project where we use YOLOv5 to detect drones in images and videos, and also provide a GUI application to make it more accessible for everyone.
 
-Training the Model
-I used the YOLOv5 object detection model and trained it on the annotated drone images using the Drone_detection.ipynb notebook. The trained model is saved as Drone_Detection.pt.
+## Installation
 
-Running the GUI Application
-The GUI application GUI application.py allows you to select an image and detect drones in it using the trained model. To run the application, run GUI application.py using Python. The application will open a window where you can select an image to detect drones in. The detected drones will be highlighted in the image.
+To use our drone detection app, follow these steps:
 
-Acknowledgments
-This project was inspired by The AI Guy's YouTube tutorial on Object Detection with YOLOv5.
+1.  Clone the repository:
+
+          `git clone https://github.com/your_username/drone-detection.git` 
+
+2.  Install the required packages:
+
+      `pip install -r requirements.txt` 
+
+3.  Download the `Drone_Detection.pt` model file from the [release](https://github.com/kuldeepaher01/Drone-Detection-Using-Yolov5/blob/main/Drone_Detection.pt) page.
+
+## Usage
+
+ 1. To run the drone detection model in the Jupyter notebook, open
+    `Drone_detection.ipynb` and run the cells.
+    
+ 2.   To run the GUI application, run `GUI_application.py` using the
+    following command: `python GUI_application.py`
+    
+    3. The application window will appear where you can select an image or
+    video file to detect drones in. The output will be shown on the
+    screen. (You may need to change path of pytorch model in
+    GUI_application.py)
+
+## Credits
+
+This project was made possible with the contributions of:
+
+-   Siddheshpatil
+-   @Siddhi-Patil06
+
+Thank you for your hard work and dedication to this project. 
