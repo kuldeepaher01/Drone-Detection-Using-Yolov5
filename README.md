@@ -24,7 +24,7 @@ To use our drone detection app, follow these steps:
  2.   To run the GUI application, run `GUI_application.py` using the
     following command: `python GUI_application.py`
     
-    3. The application window will appear where you can select an image or
+ 3. The application window will appear where you can select an image or
     video file to detect drones in. The output will be shown on the
     screen. (You may need to change path of pytorch model in
     GUI_application.py)
@@ -34,6 +34,6 @@ To use our drone detection app, follow these steps:
 This project was made possible with the contributions of:
 
 -   Siddheshpatil
--   @Siddhi-Patil06
+-   [Siddhi Patil](https://github.com/Siddhi-Patil06)
 
 Thank you for your hard work and dedication to this project. 
