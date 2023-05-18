@@ -1,0 +1,9 @@
+Pillow
+opencv-python
+torch
+matplotlib
+numpy
+tkinter
+tkVideoPlayer
+customtkinter
+ultralytics
